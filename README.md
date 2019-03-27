@@ -8,6 +8,7 @@
 - [GstWebRTC 1.0 (1.14.4)](https://lazka.github.io/pgi-docs/GstWebRTC-1.0/index.html)
 - [VLC command-line help](https://wiki.videolan.org/VLC_command-line_help/)
 - [GStreamer-1.0 personal cheat sheet](https://gist.github.com/strezh/9114204)
+- [matthew1000/gstreamer-cheat-sheet](https://github.com/matthew1000/gstreamer-cheat-sheet) - Gstreamer command-line cheat sheet
 
 
 ### History
