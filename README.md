@@ -9,11 +9,12 @@
 - [VLC command-line help](https://wiki.videolan.org/VLC_command-line_help/)
 - [GStreamer-1.0 personal cheat sheet](https://gist.github.com/strezh/9114204)
 - [matthew1000/gstreamer-cheat-sheet](https://github.com/matthew1000/gstreamer-cheat-sheet) - Gstreamer command-line cheat sheet
-
+- Drone Software Development: [Video Streaming](https://theiotlearninginitiative.gitbook.io/bitol/virtual-drone-solution/features/video-streaming)
 
 ### History
 - 2018/08/05 [Streaming with gstreamer](http://patrickelectric.work/streaming_with_gstreamer/)
 - 2015/12/25 [Play webcam using gstreamer](https://medium.com/@petehouston/play-webcam-using-gstreamer-9b7596e4e181)
+- 2014/06/05 [Videostreaming with Gstreamer](http://z25.org/static/_rd_/videostreaming_intro_plab/index.html)
 
 
 ### 국내
