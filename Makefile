@@ -59,7 +59,7 @@ test-format tf:
 		qtmux name=mux ! filesink location=test.mp4 \
 		demux. ! theoradec ! x264enc ! mux. \
 		demux. ! queue max-size-time=5000000000 max-size-buffers=10000 ! vorbisdec ! avenc_aac compliance=-2 ! mux.
-	gst-play-1.0 test.mp4
+	$(GST_PLAY) test.mp4
 
 test-stream ts:
 	$(GST_LAUNCH) filesrc location=$(SAMPLE) ! oggdemux name=demux \
