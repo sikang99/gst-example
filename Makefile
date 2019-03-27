@@ -1,6 +1,13 @@
 #
 # Makefile for gstreamer 1.0
 #
+PORT=5000
+SAMPLE=media/small.ogv
+
+GST_PLAY=gst-play-1.0
+GST_LAUNCH=gst-launch-1.0
+GST_INSPECT=gst-inspect-1.0
+GST_DISCOVER=gst-discoverer-1.0
 #-----------------------------------------------------------------------------------------
 usage:
 	@echo "make [install|video|gst|test|web]"
@@ -13,16 +20,8 @@ video v:
 	v4l2-ctl --list-devices --list-ctrls --list-formats
 
 play p:
-	vlc udp://@0.0.0.0:5000 &
-
+	vlc udp://@0.0.0.0:$(PORT) &
 #-----------------------------------------------------------------------------------------
-SAMPLE=media/small.ogv
-
-GST_PLAY=gst-play-1.0
-GST_LAUNCH=gst-launch-1.0
-GST_INSPECT=gst-inspect-1.0
-GST_DISCOVER=gst-discoverer-1.0
-
 gst x:
 	@echo "make (gst:x) [device|view]"
 
@@ -63,7 +62,7 @@ test-format tf:
 
 test-stream ts:
 	$(GST_LAUNCH) filesrc location=$(SAMPLE) ! oggdemux name=demux \
-		mpegtsmux name=mux alignment=7 ! udpsink host=127.0.0.1 port=5000 buffer-size=10000000 \
+		mpegtsmux name=mux alignment=7 ! udpsink host=127.0.0.1 port=$(PORT) buffer-size=10000000 \
  		demux. ! theoradec ! x264enc ! mux. \
  		demux. ! queue max-size-time=5000000000 max-size-buffers=10000 ! vorbisdec ! avenc_aac compliance=-2 ! mux.
 
@@ -72,17 +71,17 @@ test-camera tc:
 
 tc1:
 	#gst-launch-1.0 v4l2src device=/dev/video0 ! 'video/x-raw,format=YUYV,width=320,height=240' \ 
-		#! x264enc pass=qual quantizer=20 tune=zerolatency ! rtph264pay ! udpsink host=127.0.0.1 port=5000
+		#! x264enc pass=qual quantizer=20 tune=zerolatency ! rtph264pay ! udpsink host=127.0.0.1 port=$(PORT)
 	$(GST_LAUNCH) -v v4l2src ! video/x-raw,width=640,height=480 \
-		! x264enc ! rtph264pay ! udpsink host=127.0.0.1 port=5000
+		! x264enc ! rtph264pay ! udpsink host=127.0.0.1 port=$(PORT)
 
 tc2:
 	$(GST_LAUNCH) -v v4l2src ! video/x-raw,width=640,height=480 \
 		! textoverlay text="Room A" valignment=top halignment=left font-desc="Sans, 22" \
-		! videoconvert ! x264enc ! rtph264pay ! udpsink host=127.0.0.1 port=5000
+		! videoconvert ! x264enc ! rtph264pay ! udpsink host=127.0.0.1 port=$(PORT)
 
 test-recv tr:
-	$(GST_LAUNCH) udpsrc port=5000 ! "application/x-rtp,payload=127" ! rtph264depay ! ffdec_h264 ! xvimagesink sync=false
+	$(GST_LAUNCH) udpsrc port=$(PORT) ! "application/x-rtp,payload=127" ! rtph264depay ! ffdec_h264 ! xvimagesink sync=false
 
 test-test tt:
 	$(GST_LAUNCH) -v udpsrc port=1234 ! fakesink dump=1
@@ -102,34 +101,36 @@ send-recv sr:
 	@echo "make (send-recv) [1|2|3]"
 
 sr1:	# JPEG
-	$(GST_LAUNCH) udpsrc port=5000 ! application/x-rtp,encoding-name=JPEG,payload=26 ! rtpjpegdepay ! jpegdec ! autovideosink &
+	$(GST_LAUNCH) udpsrc port=$(PORT) ! application/x-rtp,encoding-name=JPEG,payload=26 ! rtpjpegdepay ! jpegdec ! autovideosink &
 	$(GST_LAUNCH) -v v4l2src ! video/x-raw,width=640,height=480 ! videoconvert ! jpegenc \
-		! rtpjpegpay ! udpsink host=127.0.0.1 port=5000 
+		! rtpjpegpay ! udpsink host=127.0.0.1 port=$(PORT) 
 
 sr2:	# VP8
-	$(GST_LAUNCH) udpsrc port=5000 caps="application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)VP8-DRAFT-IETF-01, payload=(int)96, ssrc=(uint)2990747501, clock-base=(uint)275641083, seqnum-base=(uint)34810" ! rtpvp8depay ! vp8dec ! autovideosink &
-	$(GST_LAUNCH) -v v4l2src ! video/x-raw,width=640,height=480 ! videoconvert  ! vp8enc ! rtpvp8pay ! udpsink host=127.0.0.1 port=5000
+	$(GST_LAUNCH) udpsrc port=$(PORT) caps="application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)VP8-DRAFT-IETF-01, payload=(int)96, ssrc=(uint)2990747501, clock-base=(uint)275641083, seqnum-base=(uint)34810" ! rtpvp8depay ! vp8dec ! autovideosink &
+	$(GST_LAUNCH) -v v4l2src ! video/x-raw,width=640,height=480 ! videoconvert  ! vp8enc ! rtpvp8pay ! udpsink host=127.0.0.1 port=$(PORT)
 
 sr3:	# MPEG-4
-	$(GST_LAUNCH) udpsrc port=5000 caps = "application/x-rtp\,\ media\=\(string\)video\,\ clock-rate\=\(int\)90000\,\ encoding-name\=\(string\)MP4V-ES\,\ profile-level-id\=\(string\)1\,\ config\=\(string\)000001b001000001b58913000001000000012000c48d8800cd3204709443000001b24c61766335362e312e30\,\ payload\=\(int\)96\,\ ssrc\=\(uint\)2873740600\,\ timestamp-offset\=\(uint\)391825150\,\ seqnum-offset\=\(uint\)2980" ! rtpmp4vdepay ! avdec_mpeg4 ! autovideosink &
-	$(GST_LAUNCH) -v v4l2src ! video/x-raw,width=640,height=480 ! videoconvert ! avenc_mpeg4 ! rtpmp4vpay config-interval=3 ! udpsink host=127.0.0.1 port=5000
+	$(GST_LAUNCH) udpsrc port=$(PORT) caps = "application/x-rtp\,\ media\=\(string\)video\,\ clock-rate\=\(int\)90000\,\ encoding-name\=\(string\)MP4V-ES\,\ profile-level-id\=\(string\)1\,\ config\=\(string\)000001b001000001b58913000001000000012000c48d8800cd3204709443000001b24c61766335362e312e30\,\ payload\=\(int\)96\,\ ssrc\=\(uint\)2873740600\,\ timestamp-offset\=\(uint\)391825150\,\ seqnum-offset\=\(uint\)2980" ! rtpmp4vdepay ! avdec_mpeg4 ! autovideosink &
+	$(GST_LAUNCH) -v v4l2src ! video/x-raw,width=640,height=480 ! videoconvert ! avenc_mpeg4 ! rtpmp4vpay config-interval=3 ! udpsink host=127.0.0.1 port=$(PORT)
 
 sr4:	# H.264
-	$(GST_LAUNCH) udpsrc port=5000 caps = "application/x-rtp\,\ media\=\(string\)video\,\ clock-rate\=\(int\)90000\,\ encoding-name\=\(string\)H264\,\ payload\=\(int\)96" ! rtph264depay ! avdec_h264 ! autovideosink &
-	$(GST_LAUNCH) -v v4l2src ! video/x-raw,width=640,height=480 ! videoconvert ! x264enc ! rtph264pay ! udpsink host=127.0.0.1 port=5000
+	$(GST_LAUNCH) udpsrc port=$(PORT) caps = "application/x-rtp\,\ media\=\(string\)video\,\ clock-rate\=\(int\)90000\,\ encoding-name\=\(string\)H264\,\ payload\=\(int\)96" ! rtph264depay ! avdec_h264 ! autovideosink &
+	$(GST_LAUNCH) -v v4l2src ! video/x-raw,width=640,height=480 ! videoconvert ! x264enc ! rtph264pay ! udpsink host=127.0.0.1 port=$(PORT)
 
 sr5:
 	$(GST_LAUNCH) -v v4l2src !  video/x-raw,width=640,height=480 \
 		! textoverlay text="Room A" valignment=top halignment=left font-desc="Sans, 22" \
-		! videoconvert ! x264enc ! rtph264pay ! udpsink host=127.0.0.1 port=5000 &
+		! videoconvert ! x264enc ! rtph264pay ! udpsink host=127.0.0.1 port=$(PORT) &
 	$(GST_LAUNCH) -v v4l2src ! video/x-raw,width=640,height=480 ! videoconvert ! x264enc \
-		! rtph264pay ! udpsink host=127.0.0.1 port=5000
+		! rtph264pay ! udpsink host=127.0.0.1 port=$(PORT)
 
 sr6:
-	$(GST_LAUNCH) udpsrc port=5000 ! rtph264depay ! avdec_h264 ! autovideosink &
+	$(GST_LAUNCH) -vc udpsrc port=$(PORT) close-socket=false multicast-iface=false auto-multicast=true \
+		! application/x-rtp, payload=96 ! rtpjitterbuffer ! rtph264depay ! avdec_h264 \
+		! fpsdisplaysink  sync=false async=false --verbose &
 	$(GST_LAUNCH) -v v4l2src device=/dev/video0 \
 		! video/x-raw,width=1280,height=720,type=video ! videoscale ! videoconvert ! x264enc tune=zerolatency \
-		! rtph264pay ! udpsink host=127.0.0.1 port=5000 --verbose 
+		! rtph264pay ! udpsink host=127.0.0.1 port=$(PORT) --verbose 
 
 #-----------------------------------------------------------------------------------------
 web w:
