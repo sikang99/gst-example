@@ -16,3 +16,4 @@
 ### 국내
 - [Gstreamer 예기들](https://m.blog.naver.com/PostList.nhn?blogId=jedijaja&categoryNo=7&logCode=0&categoryName=Gstreamer%20%EC%98%88%EA%B8%B0%EB%93%A4)
     - [라즈베리파이와 gstreamer를 이용한 간단한 video audio 서버](https://m.blog.naver.com/jedijaja/221001104246)
+- [GStreamer RTP UDP 카메라 전송 명령](http://blog.naver.com/PostView.nhn?blogId=chandong83&logNo=221263551742)

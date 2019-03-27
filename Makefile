@@ -15,20 +15,19 @@ video v:
 #-----------------------------------------------------------------------------------------
 SAMPLE=media/small.ogv
 
-GST_LAUNCH=gst-launch-1.0
 GST_PLAY=gst-play-1.0
+GST_LAUNCH=gst-launch-1.0
 GST_INSPECT=gst-inspect-1.0
 GST_DISCOVER=gst-discoverer-1.0
 
 gst x:
 	@echo "make (gst) [list|view]"
 
-gst-list xl:
 	 $(GST_INSPECT) --print-all
 	 #$(GST_INSPECT) --print-plugin-auto-install-info
 	 #$(GST_INSPECT) mpegtsmux
 gst-view xv:
-	$(GST_LAUNCH) playbin uri=v4l2:///dev/video0
+	$(GST_LAUNCH) playbin3 uri=v4l2:///dev/video0
 #-----------------------------------------------------------------------------------------
 test t:
 	@echo "make (test) [discover|play|extract|stream|base]"
