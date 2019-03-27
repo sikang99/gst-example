@@ -24,13 +24,20 @@ GST_INSPECT=gst-inspect-1.0
 GST_DISCOVER=gst-discoverer-1.0
 
 gst x:
-	@echo "make (gst) [list|view]"
+	@echo "make (gst:x) [device|view]"
 
+gst-device xd:
 	 $(GST_INSPECT) --print-all
 	 #$(GST_INSPECT) --print-plugin-auto-install-info
 	 #$(GST_INSPECT) mpegtsmux
+
 gst-view xv:
+	@echo "make (gst-view:x) [1|2]"
+xv1:
 	$(GST_LAUNCH) playbin3 uri=v4l2:///dev/video0
+xv2:
+	$(GST_LAUNCH) v4l2src device=/dev/video0 ! videoconvert ! autovideosink
+
 #-----------------------------------------------------------------------------------------
 test t:
 	@echo "make (test) [discover|play|extract|stream|base]"
@@ -96,7 +103,8 @@ send-recv sr:
 
 sr1:	# JPEG
 	$(GST_LAUNCH) udpsrc port=5000 ! application/x-rtp,encoding-name=JPEG,payload=26 ! rtpjpegdepay ! jpegdec ! autovideosink &
-	$(GST_LAUNCH) -v v4l2src ! video/x-raw,width=640,height=480 ! videoconvert ! jpegenc ! rtpjpegpay ! udpsink host=127.0.0.1 port=5000 
+	$(GST_LAUNCH) -v v4l2src ! video/x-raw,width=640,height=480 ! videoconvert ! jpegenc \
+		! rtpjpegpay ! udpsink host=127.0.0.1 port=5000 
 
 sr2:	# VP8
 	$(GST_LAUNCH) udpsrc port=5000 caps="application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)VP8-DRAFT-IETF-01, payload=(int)96, ssrc=(uint)2990747501, clock-base=(uint)275641083, seqnum-base=(uint)34810" ! rtpvp8depay ! vp8dec ! autovideosink &
@@ -114,7 +122,14 @@ sr5:
 	$(GST_LAUNCH) -v v4l2src !  video/x-raw,width=640,height=480 \
 		! textoverlay text="Room A" valignment=top halignment=left font-desc="Sans, 22" \
 		! videoconvert ! x264enc ! rtph264pay ! udpsink host=127.0.0.1 port=5000 &
-	$(GST_LAUNCH) -v v4l2src ! video/x-raw,width=640,height=480 ! videoconvert ! x264enc ! rtph264pay ! udpsink host=127.0.0.1 port=5000
+	$(GST_LAUNCH) -v v4l2src ! video/x-raw,width=640,height=480 ! videoconvert ! x264enc \
+		! rtph264pay ! udpsink host=127.0.0.1 port=5000
+
+sr6:
+	$(GST_LAUNCH) udpsrc port=5000 ! rtph264depay ! avdec_h264 ! autovideosink &
+	$(GST_LAUNCH) -v v4l2src device=/dev/video0 \
+		! video/x-raw,width=1280,height=720,type=video ! videoscale ! videoconvert ! x264enc tune=zerolatency \
+		! rtph264pay ! udpsink host=127.0.0.1 port=5000 --verbose 
 
 #-----------------------------------------------------------------------------------------
 web w:
