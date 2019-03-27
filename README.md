@@ -1,7 +1,7 @@
 ## Gstreamer Example
 
 ### Information
-- [Gstreamer](https://gstreamer.freedesktop.org/) - 1.15.2
+- [Gstreamer](https://gstreamer.freedesktop.org/) - 1.15.2, [1.14](https://gstreamer.freedesktop.org/releases/1.14/)
     - Documentation: [gst-launch-1.0](https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html)
         - [List of Elements and Plugins](https://gstreamer.freedesktop.org/documentation/plugins.html)
 - [Gstreamer real life examples](http://4youngpadawans.com/gstreamer-real-life-examples/)

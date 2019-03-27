@@ -95,10 +95,10 @@ git g:
 
 git-update gu:
 	git add .gitignore *.md Makefile static/ media/
-	git commit -m "initial commit"
+	#git commit -m "initial commit"
 	#git remote remove go.mod sse.go
 	#git commit -m "add examples"
-	#git commit -m "update contents"
+	git commit -m "update contents"
 	git push
 
 git-login gl:
