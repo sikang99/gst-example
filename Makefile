@@ -15,6 +15,7 @@ usage:
 install i:
 	sudo apt install libv4l-dev v4l-utils v4l2ucp
 	sudo apt install libgstreamer1.0-dev ges1.0-tools
+	sudo apt install -y gstreamer1.0-tools gstreamer1.0-nice gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-plugins-good libgstreamer1.0-dev git libglib2.0-dev libgstreamer-plugins-bad1.0-dev libsoup2.4-dev libjson-glib-dev
 
 video v:
 	v4l2-ctl --list-devices --list-ctrls --list-formats
