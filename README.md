@@ -10,9 +10,12 @@
 - [GStreamer-1.0 personal cheat sheet](https://gist.github.com/strezh/9114204)
 - [matthew1000/gstreamer-cheat-sheet](https://github.com/matthew1000/gstreamer-cheat-sheet) - Gstreamer command-line cheat sheet
 - Drone Software Development: [Video Streaming](https://theiotlearninginitiative.gitbook.io/bitol/virtual-drone-solution/features/video-streaming)
+- [GStreamer Optimized Multimedia Processing for Audio and Video](https://www.psirep.com/system/files/GStreamer%20Optimized%20Multimedia%20Processing%20for%20Audio%20and%20Video%20white%20paper.pdf)
+
 
 ### History
 - 2018/08/05 [Streaming with gstreamer](http://patrickelectric.work/streaming_with_gstreamer/)
+- 2017/06/20 [Gstreamer 파이프라인 테스트](https://myserena.tistory.com/89)
 - 2015/12/25 [Play webcam using gstreamer](https://medium.com/@petehouston/play-webcam-using-gstreamer-9b7596e4e181)
 - 2014/06/05 [Videostreaming with Gstreamer](http://z25.org/static/_rd_/videostreaming_intro_plab/index.html)
 
