@@ -23,6 +23,7 @@
 - 2018/10/27 [OpenVidu 2.6.0: Ionic support](https://medium.com/@openvidu/openvidu-2-6-0-ionic-support-33c395e59c45)
 - 2018/08/05 [Streaming with gstreamer](http://patrickelectric.work/streaming_with_gstreamer/)
 - 2018/05/01 [Liquidsoap – Gstreamer MPEGTS stream how to](https://www.autonarcosis.com/2018/05/01/liquidsoap-gstreamer-mpegts-stream-how-to/)
+- 2018/04/10 [A simple method of measuring audio latency](http://blog.nirbheek.in/2018/04/a-simple-method-of-measuring-audio.html)
 - 2018/02/03 [GStreamer has grown a WebRTC implementation](http://blog.nirbheek.in/2018/02/gstreamer-webrtc.html)
 - 2018/00/00
 - 2017/06/20 [Gstreamer 파이프라인 테스트](https://myserena.tistory.com/89)
@@ -38,4 +39,11 @@
 
 ### Open Source
 - [centricular/gstwebrtc-demos](https://github.com/centricular/gstwebrtc-demos)
+
+
+### Persons
+- [Nirbheek’s Rantings](http://blog.nirbheek.in/)
+
+
+
 
