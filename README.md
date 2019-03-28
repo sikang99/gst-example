@@ -1,4 +1,4 @@
-## Gstreamer Example
+## GStreamer Example
 
 ### Information
 - [Gstreamer](https://gstreamer.freedesktop.org/) - [1.16](https://gstreamer.freedesktop.org/releases/1.16/), 1.15.2, [1.14](https://gstreamer.freedesktop.org/releases/1.14/)
@@ -41,6 +41,7 @@
 ### Open Source
 - [centricular/gstwebrtc-demos](https://github.com/centricular/gstwebrtc-demos)
 - [thaytan/gst-rpicamsrc](https://github.com/thaytan/gst-rpicamsrc) - GStreamer element for the Raspberry Pi camera module
+- [mrayy/mrayGStreamerUnity](https://github.com/mrayy/mrayGStreamerUnity) - GStreamer Integration with Unity using a Native plugin
 
 
 ### Persons
