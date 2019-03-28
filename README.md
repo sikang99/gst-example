@@ -40,6 +40,7 @@
 
 ### Open Source
 - [centricular/gstwebrtc-demos](https://github.com/centricular/gstwebrtc-demos)
+- [thaytan/gst-rpicamsrc](https://github.com/thaytan/gst-rpicamsrc) - GStreamer element for the Raspberry Pi camera module
 
 
 ### Persons
