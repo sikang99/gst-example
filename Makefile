@@ -133,6 +133,11 @@ sr6:
 		! video/x-raw,width=1280,height=720,type=video ! videoscale ! videoconvert ! x264enc tune=zerolatency \
 		! rtph264pay ! udpsink host=127.0.0.1 port=$(PORT) --verbose 
 
+
+sr7:	# WebRTC
+	gst-launch-1.0 webrtcbin bundle-policy=max-bundle name=sendrecv  stun-server=stun://stun.l.google.com:19302 ! rtpopusdepay ! opusdec ! audioconvert ! autoaudiosink async=false &
+	gst-launch-1.0 webrtcbin bundle-policy=max-bundle name=sendrecv  stun-server=stun://stun.l.google.com:19302 audiotestsrc is-live=true wave=red-noise ! audioconvert ! audioresample ! queue ! opusenc ! rtpopuspay ! application/x-rtp,media=audio,encoding-name=OPUS,payload=97 ! sendrecv.
+
 #-----------------------------------------------------------------------------------------
 web w:
 	@echo "make (web) [sample]"

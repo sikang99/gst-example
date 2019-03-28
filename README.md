@@ -19,9 +19,12 @@
 - 2019/02/02 [gstreamer 1.16 and beyond - FOSDEM 2019](https://fosdem.org/2019/schedule/event/media_gstreamer_1_16/attachments/slides/3027/export/events/attachments/media_gstreamer_1_16/slides/3027/FOSDEM_2019_OpenMedia_GStreamer_1_16_and_beyond.pdf)
 - 2019/01/23 [GStreamer WebRTC: A flexible solution to web-based media](https://opensource.com/article/19/1/gstreamer)
 - 2019/00/00
-- 2019/10/27 [OpenVidu 2.6.0: Ionic support](https://medium.com/@openvidu/openvidu-2-6-0-ionic-support-33c395e59c45)
+- 2018/11/15 [Gstreamer webrtcbin working sample pipeline](https://stackoverflow.com/questions/53267038/gstreamer-webrtcbin-working-sample-pipeline)
+- 2018/10/27 [OpenVidu 2.6.0: Ionic support](https://medium.com/@openvidu/openvidu-2-6-0-ionic-support-33c395e59c45)
 - 2018/08/05 [Streaming with gstreamer](http://patrickelectric.work/streaming_with_gstreamer/)
 - 2018/05/01 [Liquidsoap – Gstreamer MPEGTS stream how to](https://www.autonarcosis.com/2018/05/01/liquidsoap-gstreamer-mpegts-stream-how-to/)
+- 2018/02/03 [GStreamer has grown a WebRTC implementation](http://blog.nirbheek.in/2018/02/gstreamer-webrtc.html)
+- 2018/00/00
 - 2017/06/20 [Gstreamer 파이프라인 테스트](https://myserena.tistory.com/89)
 - 2015/12/25 [Play webcam using gstreamer](https://medium.com/@petehouston/play-webcam-using-gstreamer-9b7596e4e181)
 - 2014/06/05 [Videostreaming with Gstreamer](http://z25.org/static/_rd_/videostreaming_intro_plab/index.html)
