@@ -12,6 +12,7 @@
 - Drone Software Development: [Video Streaming](https://theiotlearninginitiative.gitbook.io/bitol/virtual-drone-solution/features/video-streaming)
 - [GStreamer Optimized Multimedia Processing for Audio and Video](https://www.psirep.com/system/files/GStreamer%20Optimized%20Multimedia%20Processing%20for%20Audio%20and%20Video%20white%20paper.pdf)
 - [WebRTC Gstreamer Gateway](https://swmansion.com/webrtc)
+- [GStreamer forum](https://spectrum.chat/gstreamer?tab=posts)
 
 
 ### History
