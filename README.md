@@ -11,10 +11,11 @@
 - [matthew1000/gstreamer-cheat-sheet](https://github.com/matthew1000/gstreamer-cheat-sheet) - Gstreamer command-line cheat sheet
 - Drone Software Development: [Video Streaming](https://theiotlearninginitiative.gitbook.io/bitol/virtual-drone-solution/features/video-streaming)
 - [GStreamer Optimized Multimedia Processing for Audio and Video](https://www.psirep.com/system/files/GStreamer%20Optimized%20Multimedia%20Processing%20for%20Audio%20and%20Video%20white%20paper.pdf)
+- [WebRTC Gstreamer Gateway](https://swmansion.com/webrtc)
 
 
 ### History
-- 2019/03/09 [Accelerated GStreamer User Guide - NVIDIA Developer](https://developer.nvidia.com/embedded/dlc/l4t-accelerated-gstreamer-guide-32-1)
+- 2019/03/18 [Accelerated GStreamer User Guide - NVIDIA Developer](https://developer.nvidia.com/embedded/dlc/l4t-accelerated-gstreamer-guide-32-1)
 - 2019/02/02 [gstreamer 1.16 and beyond - FOSDEM 2019](https://fosdem.org/2019/schedule/event/media_gstreamer_1_16/attachments/slides/3027/export/events/attachments/media_gstreamer_1_16/slides/3027/FOSDEM_2019_OpenMedia_GStreamer_1_16_and_beyond.pdf)
 - 2019/01/23 [GStreamer WebRTC: A flexible solution to web-based media](https://opensource.com/article/19/1/gstreamer)
 - 2019/00/00
