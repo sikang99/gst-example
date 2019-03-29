@@ -42,6 +42,7 @@
 - [centricular/gstwebrtc-demos](https://github.com/centricular/gstwebrtc-demos)
 - [thaytan/gst-rpicamsrc](https://github.com/thaytan/gst-rpicamsrc) - GStreamer element for the Raspberry Pi camera module
 - [mrayy/mrayGStreamerUnity](https://github.com/mrayy/mrayGStreamerUnity) - GStreamer Integration with Unity using a Native plugin
+- [royrscb/Gstreamer-WebRTC-SFU](https://github.com/royrscb/Gstreamer-WebRTC-SFU) - SFU with WebRTC usign Gstreamer
 
 
 ### Persons
