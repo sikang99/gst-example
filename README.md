@@ -13,7 +13,7 @@
 - [GStreamer Optimized Multimedia Processing for Audio and Video](https://www.psirep.com/system/files/GStreamer%20Optimized%20Multimedia%20Processing%20for%20Audio%20and%20Video%20white%20paper.pdf)
 - [WebRTC Gstreamer Gateway](https://swmansion.com/webrtc)
 - [GStreamer forum](https://spectrum.chat/gstreamer?tab=posts)
-
+- 2018 [Gstreamer pipeline on webOS OSE](https://gstreamer.freedesktop.org/data/events/gstreamer-conference/2018/Jimmy%20Ohn%20-%20GStreamer%20pipeline%20on%20webOS%20OSE%20(Lightning%20Talk).pdf
 
 ### History
 - 2019/03/18 [Accelerated GStreamer User Guide - NVIDIA Developer](https://developer.nvidia.com/embedded/dlc/l4t-accelerated-gstreamer-guide-32-1)
@@ -43,6 +43,7 @@
 - [thaytan/gst-rpicamsrc](https://github.com/thaytan/gst-rpicamsrc) - GStreamer element for the Raspberry Pi camera module
 - [mrayy/mrayGStreamerUnity](https://github.com/mrayy/mrayGStreamerUnity) - GStreamer Integration with Unity using a Native plugin
 - [royrscb/Gstreamer-WebRTC-SFU](https://github.com/royrscb/Gstreamer-WebRTC-SFU) - SFU with WebRTC usign Gstreamer
+- [teltek/gst-plugin-ndi](https://github.com/teltek/gst-plugin-ndi) - GStreamer NDI Plugin for Linux
 
 
 ### Persons
