@@ -13,6 +13,10 @@
 - [GStreamer Optimized Multimedia Processing for Audio and Video](https://www.psirep.com/system/files/GStreamer%20Optimized%20Multimedia%20Processing%20for%20Audio%20and%20Video%20white%20paper.pdf)
 - [WebRTC Gstreamer Gateway](https://swmansion.com/webrtc)
 - [GStreamer forum](https://spectrum.chat/gstreamer?tab=posts)
+- [Intel Video and Audio for Linux](https://01.org/linuxmedia/quickstart/overview)
+
+
+### Slides
 - 2018 [Gstreamer pipeline on webOS OSE](https://gstreamer.freedesktop.org/data/events/gstreamer-conference/2018/Jimmy%20Ohn%20-%20GStreamer%20pipeline%20on%20webOS%20OSE%20(Lightning%20Talk).pdf
 - 2018 [GstCUDA: A GStreamer-CUDA interface solution](https://gstreamer.freedesktop.org/data/events/gstreamer-conference/2018/Jos%C3%A9%20Jim%C3%A9nez-Chavarr%C4%B1%CC%81a%20-%20GstCUDA:%20A%20GStreamer-CUDA%20interface%20solution%20(Lightning%20Talk).pdf)
 - 2018 [Accelerated Gstreamer User Guide](https://developer.download.nvidia.com/embedded/L4T/r31_Release_v1.0/Docs/Accelerated_GStreamer_User_Guide.pdf?w-FjfyCgri2qxmCtwnzhMhjK5emQaHGA2wLSyP-rmJrTQlNi1FETp93FpAAJAJxphtzSeBKHBE8_3a1lUp_SNgn1A7D4rqSCZ8JwmzRWO9Hn4tB2Hc5JUop-BroNDJLPAew402NKCFSPktA941zNnMKXOTKEEme-hmaka4EleJJH4NyY-pI)
@@ -31,6 +35,7 @@
 - 2018/08/05 [Streaming with gstreamer](http://patrickelectric.work/streaming_with_gstreamer/)
 - 2018/05/01 [Liquidsoap – Gstreamer MPEGTS stream how to](https://www.autonarcosis.com/2018/05/01/liquidsoap-gstreamer-mpegts-stream-how-to/)
 - 2018/04/10 [A simple method of measuring audio latency](http://blog.nirbheek.in/2018/04/a-simple-method-of-measuring-audio.html)
+- 2018/04/01 [gstreamer로 실시간 스트리밍](https://kldp.org/node/159391)
 - 2018/02/03 [GStreamer has grown a WebRTC implementation](http://blog.nirbheek.in/2018/02/gstreamer-webrtc.html)
 - 2018/00/00
 - 2017/06/20 [Gstreamer 파이프라인 테스트](https://myserena.tistory.com/89)
@@ -50,6 +55,9 @@
 - [mrayy/mrayGStreamerUnity](https://github.com/mrayy/mrayGStreamerUnity) - GStreamer Integration with Unity using a Native plugin
 - [royrscb/Gstreamer-WebRTC-SFU](https://github.com/royrscb/Gstreamer-WebRTC-SFU) - SFU with WebRTC usign Gstreamer
 - [teltek/gst-plugin-ndi](https://github.com/teltek/gst-plugin-ndi) - GStreamer NDI Plugin for Linux
+- [https://github.com/rubenrua/GstreamerCodeSnippets](https://github.com/rubenrua/GstreamerCodeSnippets) - Gstreamer Code Snippets in C, Python and Shell (gst-launch)
+- [nnsuite/nnstreamer](https://github.com/nnsuite/nnstreamer) - Neural Network (NN) Streamer, Stream Processing Paradigm for Neural Network Apps/Devices
+
 
 
 ### Persons
