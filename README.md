@@ -14,6 +14,7 @@
 - [WebRTC Gstreamer Gateway](https://swmansion.com/webrtc)
 - [GStreamer forum](https://spectrum.chat/gstreamer?tab=posts)
 - [Intel Video and Audio for Linux](https://01.org/linuxmedia/quickstart/overview)
+- [RaspberryPiで高画質ライブ配信](http://dz.plala.jp/wiki/index.php/RaspberryPi%E3%81%A7%E9%AB%98%E7%94%BB%E8%B3%AA%E3%83%A9%E3%82%A4%E3%83%96%E9%85%8D%E4%BF%A1)
 
 
 ### Slides
