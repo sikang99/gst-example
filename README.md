@@ -59,6 +59,7 @@
 - [agherzan/meta-raspberrypi](https://github.com/agherzan/meta-raspberrypi) - Yocto BSP layer for the Raspberry Pi boards
     - meta-raspberrypi/recipes-multimedia/gstreamer
 - [gohai/processing-glvideo](https://github.com/gohai/processing-glvideo) - Hardware accelerated video playback using GL textures for Processing on Raspberry Pi
+- [processing/processing](https://github.com/processing/processing) - Source code for the Processing Core and Development Environment (PDE)
 
 
 ### Persons
