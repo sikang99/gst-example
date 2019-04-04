@@ -23,8 +23,6 @@
 - 2018 [NNStreamer: Neural Networks as GStreamer Filters](https://www.researchgate.net/publication/329750345_NNStreamer_Neural_Networks_as_GStreamer_Filters)
 
 
-
-
 ### History
 - 2019/03/18 [Accelerated GStreamer User Guide - NVIDIA Developer](https://developer.nvidia.com/embedded/dlc/l4t-accelerated-gstreamer-guide-32-1)
 - 2019/02/02 [gstreamer 1.16 and beyond - FOSDEM 2019](https://fosdem.org/2019/schedule/event/media_gstreamer_1_16/attachments/slides/3027/export/events/attachments/media_gstreamer_1_16/slides/3027/FOSDEM_2019_OpenMedia_GStreamer_1_16_and_beyond.pdf)
@@ -58,6 +56,7 @@
 - [teltek/gst-plugin-ndi](https://github.com/teltek/gst-plugin-ndi) - GStreamer NDI Plugin for Linux
 - [https://github.com/rubenrua/GstreamerCodeSnippets](https://github.com/rubenrua/GstreamerCodeSnippets) - Gstreamer Code Snippets in C, Python and Shell (gst-launch)
 - [nnsuite/nnstreamer](https://github.com/nnsuite/nnstreamer) - Neural Network (NN) Streamer, Stream Processing Paradigm for Neural Network Apps/Devices
+- [agherzan/meta-raspberrypi](https://github.com/agherzan/meta-raspberrypi) - Yocto BSP layer for the Raspberry Pi boards
 
 
 
