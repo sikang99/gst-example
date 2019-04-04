@@ -57,7 +57,7 @@
 - [https://github.com/rubenrua/GstreamerCodeSnippets](https://github.com/rubenrua/GstreamerCodeSnippets) - Gstreamer Code Snippets in C, Python and Shell (gst-launch)
 - [nnsuite/nnstreamer](https://github.com/nnsuite/nnstreamer) - Neural Network (NN) Streamer, Stream Processing Paradigm for Neural Network Apps/Devices
 - [agherzan/meta-raspberrypi](https://github.com/agherzan/meta-raspberrypi) - Yocto BSP layer for the Raspberry Pi boards
-
+    - meta-raspberrypi/recipes-multimedia/gstreamer
 
 
 ### Persons
