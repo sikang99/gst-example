@@ -34,6 +34,7 @@
 - 2018/10/26 [GStreamer RTSP Raspberry Pi Camera](https://idle.run/rtsp-server-rpi-gstreamer)
 - 2018/10/18 [Raspberry Pi 3: RTSP Server 설정](https://imsoftpro.tistory.com/53)
 - 2018/08/05 [Streaming with gstreamer](http://patrickelectric.work/streaming_with_gstreamer/)
+- 2018/05/07 [Optimizing opencv 3.4 in Raspberry Pi 3 using GStreamer](http://www.ebenezertechs.com/optimizing-opencv-3-4-in-raspberry-pi-3-using-gstreamer/)
 - 2018/05/01 [Liquidsoap – Gstreamer MPEGTS stream how to](https://www.autonarcosis.com/2018/05/01/liquidsoap-gstreamer-mpegts-stream-how-to/)
 - 2018/04/10 [A simple method of measuring audio latency](http://blog.nirbheek.in/2018/04/a-simple-method-of-measuring-audio.html)
 - 2018/04/01 [gstreamer로 실시간 스트리밍](https://kldp.org/node/159391)
@@ -63,6 +64,7 @@
 - [gohai/processing-glvideo](https://github.com/gohai/processing-glvideo) - Hardware accelerated video playback using GL textures for Processing on Raspberry Pi
 - [processing/processing](https://github.com/processing/processing) - Source code for the Processing Core and Development Environment (PDE)
 - [idlerun/rtsp-server-rpi-gstreamer](https://github.com/idlerun/rtsp-server-rpi-gstreamer) - 
+- [https://github.com/ccrisan/motioneye](https://github.com/ccrisan/motioneye)
 
 
 ### Persons
