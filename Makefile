@@ -8,6 +8,7 @@ GST_PLAY=gst-play-1.0
 GST_LAUNCH=gst-launch-1.0
 GST_INSPECT=gst-inspect-1.0
 GST_DISCOVER=gst-discoverer-1.0
+GST_DEVICE=gst-device-monitor-1.0
 #-----------------------------------------------------------------------------------------
 usage:
 	@echo "make [install|video|gst|test|web]"
@@ -29,19 +30,19 @@ video v:
 play p:
 	vlc udp://@0.0.0.0:$(PORT) &
 #-----------------------------------------------------------------------------------------
-gst x:
-	@echo "make (gst:x) [device|view]"
+gst s:
+	@echo "make (gst:s) [device|view]"
 
-gst-device xd:
+gst-device sd:
 	 $(GST_INSPECT) --print-all
 	 #$(GST_INSPECT) --print-plugin-auto-install-info
 	 #$(GST_INSPECT) mpegtsmux
 
-gst-view xv:
-	@echo "make (gst-view:x) [1|2]"
-xv1:
+gst-view sv:
+	@echo "make (gst-view:sv) [1|2]"
+sv1:
 	$(GST_LAUNCH) playbin3 uri=v4l2:///dev/video0
-xv2:
+sv2:
 	$(GST_LAUNCH) v4l2src device=/dev/video0 ! videoconvert ! autovideosink
 
 #-----------------------------------------------------------------------------------------
