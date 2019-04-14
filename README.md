@@ -20,7 +20,7 @@
 - Intel: [GStreamer - OpenVX Interoperability Sample](https://software.intel.com/en-us/sample-gstreamer-openvx-interoperability)
 - [Introduction to network streaming using GStreamer](https://developer.ridgerun.com/wiki/index.php/Introduction_to_network_streaming_using_GStreamer)
 - [Yocto/gstreamer/streaming](http://trac.gateworks.com/wiki/Yocto/gstreamer/streaming)
-
+- [**Raspberry PI RTSP Guide**](https://www.stev.org/post/raspberrypisimplertspserver)
 
 
 ### Slides
