@@ -16,6 +16,10 @@
 - [Intel Video and Audio for Linux](https://01.org/linuxmedia/quickstart/overview)
 - [RaspberryPiで高画質ライブ配信](http://dz.plala.jp/wiki/index.php/RaspberryPi%E3%81%A7%E9%AB%98%E7%94%BB%E8%B3%AA%E3%83%A9%E3%82%A4%E3%83%96%E9%85%8D%E4%BF%A1)
 - [GStreamer Technologies](https://developer.ridgerun.com/wiki/index.php?title=GStreamer_Technologies)
+- [Audio effects with G-Streamer](https://www.ittiam.com/wp-content/uploads/2017/12/Audio_Effects_with_G-Streamer.pdf)
+- Intel: [GStreamer - OpenVX Interoperability Sample](https://software.intel.com/en-us/sample-gstreamer-openvx-interoperability)
+- [Introduction to network streaming using GStreamer](https://developer.ridgerun.com/wiki/index.php/Introduction_to_network_streaming_using_GStreamer)
+- [Yocto/gstreamer/streaming](http://trac.gateworks.com/wiki/Yocto/gstreamer/streaming)
 
 
 
@@ -68,11 +72,17 @@
 - [gohai/processing-glvideo](https://github.com/gohai/processing-glvideo) - Hardware accelerated video playback using GL textures for Processing on Raspberry Pi
 - [processing/processing](https://github.com/processing/processing) - Source code for the Processing Core and Development Environment (PDE)
 - [idlerun/rtsp-server-rpi-gstreamer](https://github.com/idlerun/rtsp-server-rpi-gstreamer) - 
-- [https://github.com/ccrisan/motioneye](https://github.com/ccrisan/motioneye)
+- [ccrisan/motioneye](https://github.com/ccrisan/motioneye)
+- [GStreamer/gst-rtsp-server](https://github.com/GStreamer/gst-rtsp-server) - RTSP server based on GStreamer
 
 
 ### Persons
 - [Nirbheek’s Rantings](http://blog.nirbheek.in/)
+
+### Books
+- [GStreamer Plugin Writer’s Guide (1.10.1)](https://gstreamer.freedesktop.org/data/doc/gstreamer/head/pwg/pwg.pdf)
+- [GStreamer Application Development Manual (1.10.1)](https://gstreamer.freedesktop.org/data/doc/gstreamer/head/manual/manual.pdf)
+
 
 
 
