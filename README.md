@@ -21,6 +21,9 @@
 - [Introduction to network streaming using GStreamer](https://developer.ridgerun.com/wiki/index.php/Introduction_to_network_streaming_using_GStreamer)
 - [Yocto/gstreamer/streaming](http://trac.gateworks.com/wiki/Yocto/gstreamer/streaming)
 - [**Raspberry PI RTSP Guide**](https://www.stev.org/post/raspberrypisimplertspserver)
+- Genie Doc: [GStreamer](https://genie.webierta.skn1.com/wiki/gstreamer)
+- [GStreamer on Gateworks SBCs](http://trac.gateworks.com/wiki/Yocto/gstreamer#gst-variable-rtsp-server)
+
 
 
 ### Slides
@@ -32,6 +35,7 @@
 
 
 ### History
+- 2019/04/04 [https://www.collabora.com/news-and-blog/news-and-events/gstreamer-support-for-the-rist-specification.html](https://www.collabora.com/news-and-blog/news-and-events/gstreamer-support-for-the-rist-specification.html)
 - 2019/03/18 [Accelerated GStreamer User Guide - NVIDIA Developer](https://developer.nvidia.com/embedded/dlc/l4t-accelerated-gstreamer-guide-32-1)
 - 2019/02/02 [gstreamer 1.16 and beyond - FOSDEM 2019](https://fosdem.org/2019/schedule/event/media_gstreamer_1_16/attachments/slides/3027/export/events/attachments/media_gstreamer_1_16/slides/3027/FOSDEM_2019_OpenMedia_GStreamer_1_16_and_beyond.pdf)
 - 2019/01/23 [GStreamer WebRTC: A flexible solution to web-based media](https://opensource.com/article/19/1/gstreamer)
