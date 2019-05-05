@@ -145,6 +145,10 @@ sr7:	# WebRTC
 	gst-launch-1.0 webrtcbin bundle-policy=max-bundle name=sendrecv  stun-server=stun://stun.l.google.com:19302 ! rtpopusdepay ! opusdec ! audioconvert ! autoaudiosink async=false &
 	gst-launch-1.0 webrtcbin bundle-policy=max-bundle name=sendrecv  stun-server=stun://stun.l.google.com:19302 audiotestsrc is-live=true wave=red-noise ! audioconvert ! audioresample ! queue ! opusenc ! rtpopuspay ! application/x-rtp,media=audio,encoding-name=OPUS,payload=97 ! sendrecv.
 
+rist:
+	gst-launch-1.0 ristsrc address=0.0.0.0 port=5004 ! rtpmp2depay ! udpsink
+	gst-play-1.0 "rist://0.0.0.0:5004?receiver-buffer=700"
+
 #-----------------------------------------------------------------------------------------
 web w:
 	@echo "make (web) [sample]"
