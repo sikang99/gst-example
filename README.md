@@ -35,6 +35,7 @@
 - Genie Doc: [GStreamer](https://genie.webierta.skn1.com/wiki/gstreamer)
 - [GStreamer on Gateworks SBCs](http://trac.gateworks.com/wiki/Yocto/gstreamer#gst-variable-rtsp-server)
 - TI: [Gstreamer Migration Guidelines](http://www.ti.com/lit/an/sprac14/sprac14.pdf), SPRAC14–April 2016
+- [Pitivi](http://www.pitivi.org/): [Planet](http://www.pitivi.org/planet/)
 
 
 ### Slides
@@ -43,6 +44,7 @@
 - 2018 [GstCUDA: A GStreamer-CUDA interface solution](https://gstreamer.freedesktop.org/data/events/gstreamer-conference/2018/Jos%C3%A9%20Jim%C3%A9nez-Chavarr%C4%B1%CC%81a%20-%20GstCUDA:%20A%20GStreamer-CUDA%20interface%20solution%20(Lightning%20Talk).pdf)
 - 2018 [Accelerated Gstreamer User Guide](https://developer.download.nvidia.com/embedded/L4T/r31_Release_v1.0/Docs/Accelerated_GStreamer_User_Guide.pdf?w-FjfyCgri2qxmCtwnzhMhjK5emQaHGA2wLSyP-rmJrTQlNi1FETp93FpAAJAJxphtzSeBKHBE8_3a1lUp_SNgn1A7D4rqSCZ8JwmzRWO9Hn4tB2Hc5JUop-BroNDJLPAew402NKCFSPktA941zNnMKXOTKEEme-hmaka4EleJJH4NyY-pI)
 - 2018 [**NNStreamer: Neural Networks as GStreamer Filters**](https://www.researchgate.net/publication/329750345_NNStreamer_Neural_Networks_as_GStreamer_Filters)
+- 2010 [GStreamer Past Present - Future](https://docplayer.net/140104-Gstreamer-past-present-future.html)
 
 
 ### History
@@ -74,6 +76,10 @@
 - [Gstreamer 예기들](https://m.blog.naver.com/PostList.nhn?blogId=jedijaja&categoryNo=7&logCode=0&categoryName=Gstreamer%20%EC%98%88%EA%B8%B0%EB%93%A4)
     - [라즈베리파이와 gstreamer를 이용한 간단한 video audio 서버](https://m.blog.naver.com/jedijaja/221001104246)
 - [GStreamer RTP UDP 카메라 전송 명령](http://blog.naver.com/PostView.nhn?blogId=chandong83&logNo=221263551742)
+
+
+### Stackoverflow
+- [GStreamer transcode audio to AAC](https://stackoverflow.com/questions/51963114/gstreamer-transcode-audio-to-aac) - RTSP to HLS
 
 
 ### Open Source
