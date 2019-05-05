@@ -13,7 +13,7 @@
 ## Gstreamer
 ### Information
 - [Gstreamer](https://gstreamer.freedesktop.org/) - [1.16](https://gstreamer.freedesktop.org/releases/1.16/), 1.15.2, [1.14](https://gstreamer.freedesktop.org/releases/1.14/)
-    - Documentation: [gst-launch-1.0](https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html)
+    - [Documentation](https://gstreamer.freedesktop.org/documentation/): [gst-launch-1.0](https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html)
         - [List of Elements and Plugins](https://gstreamer.freedesktop.org/documentation/plugins.html)
 - [Gstreamer real life examples](http://4youngpadawans.com/gstreamer-real-life-examples/)
 - [GstWebRTC 1.0 (1.14.4)](https://lazka.github.io/pgi-docs/GstWebRTC-1.0/index.html)
@@ -102,6 +102,8 @@
     - [GStreamer/gst-plugins-good/](https://github.com/GStreamer/gst-plugins-good/) - 'Good' GStreamer plugins and helper libraries
     - [GStreamer/gst-plugins-bad/](https://github.com/GStreamer/gst-plugins-bad/) - 'Bad' GStreamer plugins and helper libraries
     - [GStreamer/gst-rtsp-server](https://github.com/GStreamer/gst-rtsp-server) - RTSP server based on GStreamer
+- [RidgeRun](https://github.com/RidgeRun) - RidgeRun Embedded Solutions
+    - [RidgeRun/gstd-1.x](https://github.com/RidgeRun/gstd-1.x) - GStreamer Daemon
 - [gitlab.aja.com/ntv2/gst](https://gitlab.aja.com/ntv2/gst) - gStreamer plugin for ntv2 cards
 
 
