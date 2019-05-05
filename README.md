@@ -95,7 +95,7 @@
 - [mrayy/mrayGStreamerUnity](https://github.com/mrayy/mrayGStreamerUnity) - GStreamer Integration with Unity using a Native plugin
 - [royrscb/Gstreamer-WebRTC-SFU](https://github.com/royrscb/Gstreamer-WebRTC-SFU) - SFU with WebRTC usign Gstreamer
 - [teltek/gst-plugin-ndi](https://github.com/teltek/gst-plugin-ndi) - GStreamer NDI Plugin for Linux
-- [https://github.com/rubenrua/GstreamerCodeSnippets](https://github.com/rubenrua/GstreamerCodeSnippets) - Gstreamer Code Snippets in C, Python and Shell (gst-launch)
+- [rubenrua/GstreamerCodeSnippets](https://github.com/rubenrua/GstreamerCodeSnippets) - Gstreamer Code Snippets in C, Python and Shell (gst-launch)
 - [nnsuite/nnstreamer](https://github.com/nnsuite/nnstreamer) - Neural Network (NN) Streamer, Stream Processing Paradigm for Neural Network Apps/Devices
 - [agherzan/meta-raspberrypi](https://github.com/agherzan/meta-raspberrypi) - Yocto BSP layer for the Raspberry Pi boards
     - meta-raspberrypi/recipes-multimedia/gstreamer
