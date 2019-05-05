@@ -111,6 +111,7 @@
 - [RidgeRun](https://github.com/RidgeRun) - RidgeRun Embedded Solutions
     - [RidgeRun/gstd-1.x](https://github.com/RidgeRun/gstd-1.x) - GStreamer Daemon
 - [gitlab.aja.com/ntv2/gst](https://gitlab.aja.com/ntv2/gst) - gStreamer plugin for ntv2 cards
+- [**gitlab/gstreamer**](https://gitlab.freedesktop.org/gstreamer) - GStreamer open-source multimedia framework
 
 
 
