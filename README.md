@@ -15,6 +15,7 @@
 - [Gstreamer](https://gstreamer.freedesktop.org/) - [1.16](https://gstreamer.freedesktop.org/releases/1.16/), 1.15.2, [1.14](https://gstreamer.freedesktop.org/releases/1.14/)
     - [**Documentation**](https://gstreamer.freedesktop.org/documentation/): [gst-launch-1.0](https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html)
         - [List of Elements and Plugins](https://gstreamer.freedesktop.org/documentation/plugins.html)
+    - [gstreamer-1.16.0](http://www.linuxfromscratch.org/blfs/view/svn/multimedia/gstreamer10.html)
 - [Gstreamer real life examples](http://4youngpadawans.com/gstreamer-real-life-examples/)
 - [GstWebRTC 1.0 (1.14.4)](https://lazka.github.io/pgi-docs/GstWebRTC-1.0/index.html)
 - [VLC command-line help](https://wiki.videolan.org/VLC_command-line_help/)
@@ -50,7 +51,8 @@
 
 ### History
 - 2019/05/10 [GStreamer support for the RIST Specification](https://www.linuxtoday.com/infrastructure/gstreamer-support-for-the-rist-specification-190409145024.html)
-- 2019/04/04 [https://www.collabora.com/news-and-blog/news-and-events/gstreamer-support-for-the-rist-specification.html](https://www.collabora.com/news-and-blog/news-and-events/gstreamer-support-for-the-rist-specification.html)
+- 2019/04/04 [GStreamer buffer flow analyzer](https://www.collabora.com/news-and-blog/blog/2019/04/25/gstreamer-buffer-flow-analyzer/)
+- 2019/04/04 [GStreamer support for the RIST Specification](https://www.collabora.com/news-and-blog/news-and-events/gstreamer-support-for-the-rist-specification.html)
 - 2019/03/18 [Accelerated GStreamer User Guide - NVIDIA Developer](https://developer.nvidia.com/embedded/dlc/l4t-accelerated-gstreamer-guide-32-1)
 - 2019/02/02 [gstreamer 1.16 and beyond - FOSDEM 2019](https://fosdem.org/2019/schedule/event/media_gstreamer_1_16/attachments/slides/3027/export/events/attachments/media_gstreamer_1_16/slides/3027/FOSDEM_2019_OpenMedia_GStreamer_1_16_and_beyond.pdf)
 - 2019/01/23 [GStreamer WebRTC: A flexible solution to web-based media](https://opensource.com/article/19/1/gstreamer)
