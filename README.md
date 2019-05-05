@@ -35,7 +35,7 @@
 - Genie Doc: [GStreamer](https://genie.webierta.skn1.com/wiki/gstreamer)
 - [GStreamer on Gateworks SBCs](http://trac.gateworks.com/wiki/Yocto/gstreamer#gst-variable-rtsp-server)
 - TI: [Gstreamer Migration Guidelines](http://www.ti.com/lit/an/sprac14/sprac14.pdf), SPRAC14–April 2016
-- [Pitivi](http://www.pitivi.org/): [Planet](http://www.pitivi.org/planet/)
+- [Pitivi](http://www.pitivi.org/): [Planet](http://www.pitivi.org/planet/) - video editor based on GStreamer
 
 
 ### Slides
