@@ -16,6 +16,7 @@
     - [**Documentation**](https://gstreamer.freedesktop.org/documentation/): [gst-launch-1.0](https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html)
         - [List of Elements and Plugins](https://gstreamer.freedesktop.org/documentation/plugins.html)
     - [gstreamer-1.16.0](http://www.linuxfromscratch.org/blfs/view/svn/multimedia/gstreamer10.html)
+    - [Conference](https://gstconf.ubicast.tv/)
 - [Gstreamer real life examples](http://4youngpadawans.com/gstreamer-real-life-examples/)
 - [GstWebRTC 1.0 (1.14.4)](https://lazka.github.io/pgi-docs/GstWebRTC-1.0/index.html)
 - [VLC command-line help](https://wiki.videolan.org/VLC_command-line_help/)
