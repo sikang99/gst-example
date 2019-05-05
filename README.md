@@ -44,6 +44,7 @@
 - 2018 [GstCUDA: A GStreamer-CUDA interface solution](https://gstreamer.freedesktop.org/data/events/gstreamer-conference/2018/Jos%C3%A9%20Jim%C3%A9nez-Chavarr%C4%B1%CC%81a%20-%20GstCUDA:%20A%20GStreamer-CUDA%20interface%20solution%20(Lightning%20Talk).pdf)
 - 2018 [Accelerated Gstreamer User Guide](https://developer.download.nvidia.com/embedded/L4T/r31_Release_v1.0/Docs/Accelerated_GStreamer_User_Guide.pdf?w-FjfyCgri2qxmCtwnzhMhjK5emQaHGA2wLSyP-rmJrTQlNi1FETp93FpAAJAJxphtzSeBKHBE8_3a1lUp_SNgn1A7D4rqSCZ8JwmzRWO9Hn4tB2Hc5JUop-BroNDJLPAew402NKCFSPktA941zNnMKXOTKEEme-hmaka4EleJJH4NyY-pI)
 - 2018 [**NNStreamer: Neural Networks as GStreamer Filters**](https://www.researchgate.net/publication/329750345_NNStreamer_Neural_Networks_as_GStreamer_Filters)
+- 2017 [GStreamer Daemon - Building a media server under 30min](https://gstreamer.freedesktop.org/data/events/gstreamer-conference/2017/David%20Soto%20-%20GStreamer%20Daemon%20-%20Building%20a%20media%20server%20under%2030min.pdf)
 - 2010 [GStreamer Past Present - Future](https://docplayer.net/140104-Gstreamer-past-present-future.html)
 
 
