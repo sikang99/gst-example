@@ -1,11 +1,10 @@
-## GStreamer Example
+## GStreamer Handling
 
 
 ---
 ## Farstream
 ### Information
 - [Farstream](https://www.freedesktop.org/wiki/Software/Farstream/) - Audio/Video Communications Framework]
-
 
 
 
@@ -40,7 +39,7 @@
 
 ### Slides
 - 2018 [DeepStream SDK 2.0](http://on-demand.gputechconf.com/gtc-au/pdf/DeepStreamSDK-ettikan-sharing.pdf)
-- 2018 [Gstreamer pipeline on webOS OSE](https://gstreamer.freedesktop.org/data/events/gstreamer-conference/2018/Jimmy%20Ohn%20-%20GStreamer%20pipeline%20on%20webOS%20OSE%20(Lightning%20Talk).pdf
+- 2018 [Gstreamer pipeline on webOS OSE](https://gstreamer.freedesktop.org/data/events/gstreamer-conference/2018/Jimmy%20Ohn%20-%20GStreamer%20pipeline%20on%20webOS%20OSE%20(Lightning%20Talk.pdf)
 - 2018 [GstCUDA: A GStreamer-CUDA interface solution](https://gstreamer.freedesktop.org/data/events/gstreamer-conference/2018/Jos%C3%A9%20Jim%C3%A9nez-Chavarr%C4%B1%CC%81a%20-%20GstCUDA:%20A%20GStreamer-CUDA%20interface%20solution%20(Lightning%20Talk).pdf)
 - 2018 [Accelerated Gstreamer User Guide](https://developer.download.nvidia.com/embedded/L4T/r31_Release_v1.0/Docs/Accelerated_GStreamer_User_Guide.pdf?w-FjfyCgri2qxmCtwnzhMhjK5emQaHGA2wLSyP-rmJrTQlNi1FETp93FpAAJAJxphtzSeBKHBE8_3a1lUp_SNgn1A7D4rqSCZ8JwmzRWO9Hn4tB2Hc5JUop-BroNDJLPAew402NKCFSPktA941zNnMKXOTKEEme-hmaka4EleJJH4NyY-pI)
 - 2018 [**NNStreamer: Neural Networks as GStreamer Filters**](https://www.researchgate.net/publication/329750345_NNStreamer_Neural_Networks_as_GStreamer_Filters)
