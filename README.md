@@ -79,7 +79,11 @@
 - [processing/processing](https://github.com/processing/processing) - Source code for the Processing Core and Development Environment (PDE)
 - [idlerun/rtsp-server-rpi-gstreamer](https://github.com/idlerun/rtsp-server-rpi-gstreamer) - 
 - [ccrisan/motioneye](https://github.com/ccrisan/motioneye)
-- [GStreamer/gst-rtsp-server](https://github.com/GStreamer/gst-rtsp-server) - RTSP server based on GStreamer
+- [**GStreamer**](https://github.com/GStreamer) - GStreamer GitHub mirrors
+    - [GStreamer/gst-rtsp-server](https://github.com/GStreamer/gst-rtsp-server) - RTSP server based on GStreamer
+    - [GStreamer/gst-plugins-good/](https://github.com/GStreamer/gst-plugins-good/) - 'Good' GStreamer plugins and helper libraries
+- [gitlab.aja.com/ntv2/gst](https://gitlab.aja.com/ntv2/gst) - gStreamer plugin for ntv2 cards
+
 
 
 ### Persons
