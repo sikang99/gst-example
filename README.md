@@ -11,6 +11,7 @@
 ---
 ## Gstreamer
 ### Information
+- [wiki/GStreamer](https://en.wikipedia.org/wiki/GStreamer)
 - [Gstreamer](https://gstreamer.freedesktop.org/) - [1.16](https://gstreamer.freedesktop.org/releases/1.16/), 1.15.2, [1.14](https://gstreamer.freedesktop.org/releases/1.14/)
     - [**Documentation**](https://gstreamer.freedesktop.org/documentation/): [gst-launch-1.0](https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html)
         - [List of Elements and Plugins](https://gstreamer.freedesktop.org/documentation/plugins.html)
