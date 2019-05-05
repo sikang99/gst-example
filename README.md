@@ -38,6 +38,8 @@
 - [GStreamer on Gateworks SBCs](http://trac.gateworks.com/wiki/Yocto/gstreamer#gst-variable-rtsp-server)
 - TI: [Gstreamer Migration Guidelines](http://www.ti.com/lit/an/sprac14/sprac14.pdf), SPRAC14–April 2016
 - [Pitivi](http://www.pitivi.org/): [Planet](http://www.pitivi.org/planet/) - video editor based on GStreamer
+- [예제: Kinesis 비디오 스트림 생산자 SDK GStreamer 플러그인](https://docs.aws.amazon.com/ko_kr/kinesisvideostreams/latest/dg/examples-gstreamer-plugin.html)
+- [UAVcast-Pro](https://docs.uavmatrix.com/): [Camera](https://docs.uavmatrix.com/pages/Camera/)
 
 
 ### Slides
@@ -64,6 +66,7 @@
 - 2018/10/18 [Raspberry Pi 3: RTSP Server 설정](https://imsoftpro.tistory.com/53)
 - 2018/08/05 [Streaming with gstreamer](http://patrickelectric.work/streaming_with_gstreamer/)
 - 2018/08/01 [**Object Detection in Live Video: Using The ODROID-XU4 With GStreamer**](https://magazine.odroid.com/article/object-detection-in-live-video-using-the-odroid-xu4-with-gstreamer/)
+- 2018/06/20 [gstreamerのsrtプラグインを1.12.x にバックポートする](https://qiita.com/tetsu_koba/items/c4a277b24c4b4a30afae)
 - 2018/06/12 [新しい映像伝送プロトコルSRTをgstreamerとVLCで試す](https://qiita.com/tetsu_koba/items/b12a6de83185a5267217)
 - 2018/05/07 [Optimizing opencv 3.4 in Raspberry Pi 3 using GStreamer](http://www.ebenezertechs.com/optimizing-opencv-3-4-in-raspberry-pi-3-using-gstreamer/)
 - 2018/05/01 [Liquidsoap – Gstreamer MPEGTS stream how to](https://www.autonarcosis.com/2018/05/01/liquidsoap-gstreamer-mpegts-stream-how-to/)
