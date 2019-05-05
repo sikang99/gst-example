@@ -178,7 +178,7 @@ git g:
 	@echo "make (git) [update|login|tag|status]"
 
 git-update gu:
-	git add .gitignore *.md Makefile static/ media/
+	git add .gitignore *.md Makefile static/ media/ tutorial/
 	#git commit -m "initial commit"
 	#git remote remove go.mod sse.go
 	#git commit -m "add examples"
