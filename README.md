@@ -80,8 +80,10 @@
 - [idlerun/rtsp-server-rpi-gstreamer](https://github.com/idlerun/rtsp-server-rpi-gstreamer) - 
 - [ccrisan/motioneye](https://github.com/ccrisan/motioneye)
 - [**GStreamer**](https://github.com/GStreamer) - GStreamer GitHub mirrors
-    - [GStreamer/gst-rtsp-server](https://github.com/GStreamer/gst-rtsp-server) - RTSP server based on GStreamer
+    - [GStreamer/gst-plugins-base/](https://github.com/GStreamer/gst-plugins-base/) - 'Base' GStreamer plugins and helper libraries
     - [GStreamer/gst-plugins-good/](https://github.com/GStreamer/gst-plugins-good/) - 'Good' GStreamer plugins and helper libraries
+    - [GStreamer/gst-plugins-bad/](https://github.com/GStreamer/gst-plugins-bad/) - 'Bad' GStreamer plugins and helper libraries
+    - [GStreamer/gst-rtsp-server](https://github.com/GStreamer/gst-rtsp-server) - RTSP server based on GStreamer
 - [gitlab.aja.com/ntv2/gst](https://gitlab.aja.com/ntv2/gst) - gStreamer plugin for ntv2 cards
 
 
