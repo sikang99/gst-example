@@ -11,9 +11,19 @@ GST_DISCOVER=gst-discoverer-1.0
 GST_DEVICE=gst-device-monitor-1.0
 #-----------------------------------------------------------------------------------------
 usage:
-	@echo "make [install|video|gst|test|web]"
+	@echo "make [pkg|video|gst|test|web]"
+#-----------------------------------------------------------------------------------------
+package pkg p:
+	@echo "make (pkg) [list|config|install|search]"
 
-install i:
+pkg-list pl:
+	ls /usr/lib/x86_64-linux-gnu/pkgconfig/gstreamer*
+	ls /usr/lib/x86_64-linux-gnu/gstreamer*
+
+pkg-config pc:
+	pkg-config --list-all | grep gstreamer	
+
+pkg-install pi:
 	sudo apt install libv4l-dev v4l-utils v4l2ucp
 	sudo apt install -y \
 		gstreamer1.0-tools gstreamer1.0-nice \
@@ -24,13 +34,15 @@ install i:
 		libglib2.0-dev libsoup2.4-dev libjson-glib-dev
 	sudo apt install ges1.0-tools
 
-search:
-	sudo apt search gst | grep gstreamer1.0 
+pkg-search ps:
+	apt search gst | grep gstreamer1.0 
 
-video v:
+#-----------------------------------------------------------------------------------------
+video-device vd:
 	v4l2-ctl --list-devices --list-ctrls --list-formats
 
-play p:
+video-play vp:
+
 	vlc udp://@0.0.0.0:$(PORT) &
 #-----------------------------------------------------------------------------------------
 gst s:
