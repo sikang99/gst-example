@@ -40,6 +40,10 @@
 - [Pitivi](http://www.pitivi.org/): [Planet](http://www.pitivi.org/planet/) - video editor based on GStreamer
 - [예제: Kinesis 비디오 스트림 생산자 SDK GStreamer 플러그인](https://docs.aws.amazon.com/ko_kr/kinesisvideostreams/latest/dg/examples-gstreamer-plugin.html)
 - [UAVcast-Pro](https://docs.uavmatrix.com/): [Camera](https://docs.uavmatrix.com/pages/Camera/)
+- H.264 GStreamer pipelines examples for non-VPU SoCs 
+    - [Part 1 playback](https://imxdev.gitlab.io/tutorials/H.264_GStreamer_pipelines_examples_for_non-VPU_SoCs-Part_1/)
+    - [Part 2 stream](https://imxdev.gitlab.io/tutorials/H.264_GStreamer_pipelines_examples_for_non-VPU_SoCs-Part_2/)
+
 
 
 ### Slides
@@ -56,6 +60,7 @@
 - 2019/05/10 [GStreamer support for the RIST Specification](https://www.linuxtoday.com/infrastructure/gstreamer-support-for-the-rist-specification-190409145024.html)
 - 2019/04/04 [GStreamer buffer flow analyzer](https://www.collabora.com/news-and-blog/blog/2019/04/25/gstreamer-buffer-flow-analyzer/)
 - 2019/04/04 [GStreamer support for the RIST Specification](https://www.collabora.com/news-and-blog/news-and-events/gstreamer-support-for-the-rist-specification.html)
+- 2019/04/02 [Jetson Nano + Raspberry Pi Camera](https://www.jetsonhacks.com/2019/04/02/jetson-nano-raspberry-pi-camera/)
 - 2019/03/18 [Accelerated GStreamer User Guide - NVIDIA Developer](https://developer.nvidia.com/embedded/dlc/l4t-accelerated-gstreamer-guide-32-1)
 - 2019/02/02 [gstreamer 1.16 and beyond - FOSDEM 2019](https://fosdem.org/2019/schedule/event/media_gstreamer_1_16/attachments/slides/3027/export/events/attachments/media_gstreamer_1_16/slides/3027/FOSDEM_2019_OpenMedia_GStreamer_1_16_and_beyond.pdf)
 - 2019/01/23 [GStreamer WebRTC: A flexible solution to web-based media](https://opensource.com/article/19/1/gstreamer)
@@ -87,6 +92,7 @@
 
 ### Stackoverflow
 - [GStreamer transcode audio to AAC](https://stackoverflow.com/questions/51963114/gstreamer-transcode-audio-to-aac) - RTSP to HLS
+- [Using Gstreamer to serve RTSP stream, working example sought](https://stackoverflow.com/questions/13744560/using-gstreamer-to-serve-rtsp-stream-working-example-sought)
 
 
 ### Open Source
@@ -112,6 +118,7 @@
     - [RidgeRun/gstd-1.x](https://github.com/RidgeRun/gstd-1.x) - GStreamer Daemon
 - [gitlab.aja.com/ntv2/gst](https://gitlab.aja.com/ntv2/gst) - gStreamer plugin for ntv2 cards
 - [**gitlab/gstreamer**](https://gitlab.freedesktop.org/gstreamer) - GStreamer open-source multimedia framework
+- [JetsonHacksNano/CSI-Camera](https://github.com/JetsonHacksNano/CSI-Camera) - Simple example of using a CSI-Camera (like the Raspberry Pi Version 2 camera) with the NVIDIA Jetson Nano Developer Kit
 
 
 
