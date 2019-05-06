@@ -47,7 +47,7 @@
 
 * 2018/05/04:
     - build and test some tutorial examples in GStreamer [Documentation](https://gstreamer.freedesktop.org/documentation/)
-    ```sh
+```
 $  type gst
 gst ()
 {
