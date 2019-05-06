@@ -47,3 +47,32 @@
 
 * 2018/05/04:
     - build and test some tutorial examples in GStreamer [Documentation](https://gstreamer.freedesktop.org/documentation/)
+    ```sh
+$  type gst
+gst ()
+{
+    if [ $# = 0 ]; then
+        echo "usage: $FUNCNAME <info|play|search|version>";
+        return;
+    fi;
+    case $1 in
+        info)
+            v4l2-ctl --list-devices --list-ctrls --list-formats
+        ;;
+        list)
+            pkg-config --list-all | grep --color=auto gst
+        ;;
+        play)
+            gst-play-1.0 $2
+        ;;
+        search)
+            gst-inspect-1.0 | grep --color=auto $2
+        ;;
+        version | v)
+            gst-launch-1.0 --version
+        ;;
+    esac
+}
+```
+
+
