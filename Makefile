@@ -13,6 +13,9 @@ GST_DEVICE=gst-device-monitor-1.0
 usage:
 	@echo "make [pkg|video|gst|test|web]"
 #-----------------------------------------------------------------------------------------
+edit-history eh:
+	vi HISTORY.md
+#-----------------------------------------------------------------------------------------
 package pkg p:
 	@echo "make (pkg) [list|config|install|search]"
 
