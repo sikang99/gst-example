@@ -1,8 +1,7 @@
+## Learn to use
 
 
-
-## History
-
+### Work History
 
 * 2019/05/06:
     - dowwnload and build the [GStreamer/gstreamer](https://github.com/GStreamer/gstreamer) - 1.17.1
@@ -47,6 +46,9 @@
 
 * 2018/05/04:
     - build and test some tutorial examples in GStreamer [Documentation](https://gstreamer.freedesktop.org/documentation/)
+
+
+### Utility Shell
 ```
 $  type gst
 gst ()
