@@ -33,7 +33,7 @@
 	Unit testing support       : yes
 	PTP clock support          : yes
 	libunwind support          : yes
-	libdw support              : yes
+	libdw support              : yes    <-- $ sudo apt install libdw-dev
 
 	Debug                      : yes
 	Profiling                  : no
