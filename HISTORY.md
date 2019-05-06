@@ -5,7 +5,7 @@
 
 
 * 2019/05/06:
-    - dowwnload and build the [gstreamer](https://github.com/GStreamer/gstreamer) 1.17.1
+    - dowwnload and build the [GStreamer/gstreamer](https://github.com/GStreamer/gstreamer) - 1.17.1
     ```
     $ ccget https://github.com/GStreamer/gstreamer
     $ ./autogen.sh
@@ -52,7 +52,7 @@ $  type gst
 gst ()
 {
     if [ $# = 0 ]; then
-        echo "usage: $FUNCNAME <info|play|search|version>";
+        echo "usage: $FUNCNAME <info|list|play|search|version>";
         return;
     fi;
     case $1 in
