@@ -49,7 +49,7 @@
 
 
 ### Utility Shell
-```
+```sh
 $  type gst
 gst ()
 {
