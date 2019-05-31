@@ -89,3 +89,7 @@ gst-launch-1.0 -v v4l2src ! 'video/x-raw, width=(int)640, height=(int)480, frame
 #play RAW video from file
 gst-launch-1.0 filesrc location=out.yuv ! videoparse width=640 height=480 format=GST_VIDEO_FORMAT_YUY2 ! videoconvert ! autovideosink  
 
+# video flipping
+gst-launch-1.0 videotestsrc ! videoflip method=clockwise ! videoconvert ! ximagesink
+
+
