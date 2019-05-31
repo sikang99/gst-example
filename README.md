@@ -1,11 +1,9 @@
 ## GStreamer Handling
 
-
 ---
 ## Farstream
 ### Information
 - [Farstream](https://www.freedesktop.org/wiki/Software/Farstream/) - Audio/Video Communications Framework]
-
 
 
 ---
@@ -43,7 +41,7 @@
 - H.264 GStreamer pipelines examples for non-VPU SoCs 
     - [Part 1 playback](https://imxdev.gitlab.io/tutorials/H.264_GStreamer_pipelines_examples_for_non-VPU_SoCs-Part_1/)
     - [Part 2 stream](https://imxdev.gitlab.io/tutorials/H.264_GStreamer_pipelines_examples_for_non-VPU_SoCs-Part_2/)
-
+- Nvidia, [Accelerated GStreamer User Guide, Release 27.1](https://developer.download.nvidia.com/embedded/L4T/r27_Release_v1.0/Docs/Jetson_TX2_Accelerated_GStreamer_User_Guide_Release_27.1.pdf)
 
 
 ### Slides
