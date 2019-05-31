@@ -40,6 +40,9 @@ pkg-install pi:
 pkg-search ps:
 	apt search gst | grep gstreamer1.0 
 
+pkg-list pl:
+	dpkg -l gst*
+
 #-----------------------------------------------------------------------------------------
 video-device vd:
 	v4l2-ctl --list-devices --list-ctrls --list-formats
