@@ -45,7 +45,6 @@ video-device vd:
 	v4l2-ctl --list-devices --list-ctrls --list-formats
 
 video-play vp:
-
 	vlc udp://@0.0.0.0:$(PORT) &
 #-----------------------------------------------------------------------------------------
 gst s:
