@@ -75,6 +75,7 @@ gst-launch-1.0 udpsrc port=1234 ! \
 gst-launch-1.0 -v v4l2src ! 'video/x-raw, width=(int)640, height=(int)480, framerate=10/1' ! \
     videoconvert ! queue ! \
     rtpvrawpay ! queue ! \
+
     udpsink host=127.0.0.1 port=1234
 #receiver
 gst-launch-1.0 udpsrc port=1234 ! \
@@ -91,5 +92,10 @@ gst-launch-1.0 filesrc location=out.yuv ! videoparse width=640 height=480 format
 
 # video flipping
 gst-launch-1.0 videotestsrc ! videoflip method=clockwise ! videoconvert ! ximagesink
+
+
+# rtmp to webrtc
+gst-launch-1.0 -v  rtmpsrc location=rtmp://localhost/live/{stream} ! flvdemux ! h264parse ! \
+    rtph264pay config-interval=-1 pt={pt} !  udpsink host=127.0.0.1 port={port}
 
 
