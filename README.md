@@ -55,6 +55,7 @@
 
 
 ### History
+- 2019/09/22 [**GStreamer 1.16 Release Notes**](https://gstreamer.freedesktop.org/releases/1.16/) - 1.16.1
 - 2019/05/23 [How to Live Stream to YouTube With a Raspberry Pi](https://www.makeuseof.com/tag/live-stream-youtube-raspberry-pi/)
 - 2019/05/10 [GStreamer support for the RIST Specification](https://www.linuxtoday.com/infrastructure/gstreamer-support-for-the-rist-specification-190409145024.html)
 - 2019/04/04 [**A Guide to H.264 Streaming with Regards to FRC**](https://rianadon.github.io/blog/2019/04/04/guide-to-h264-streaming-frc.html)
@@ -96,6 +97,7 @@
 
 
 ### Open Source
+- [**opencv/gst-video-analytics**](https://github.com/opencv/gst-video-analytics) - a collection of GStreamer* elements to enable CNN model based video analytics capabilities (such as object detection, classification, recognition)
 - [centricular/gstwebrtc-demos](https://github.com/centricular/gstwebrtc-demos)
 - [thaytan/gst-rpicamsrc](https://github.com/thaytan/gst-rpicamsrc) - GStreamer element for the Raspberry Pi camera module
 - [mrayy/mrayGStreamerUnity](https://github.com/mrayy/mrayGStreamerUnity) - GStreamer Integration with Unity using a Native plugin
