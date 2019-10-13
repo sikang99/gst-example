@@ -97,6 +97,8 @@
 
 
 ### Open Source
+- [OpenVisualCloud/SVT-AV1](https://github.com/OpenVisualCloud/SVT-AV1)
+- [**OpenVisualCloud/CDN-Transcode-Sample**](https://github.com/OpenVisualCloud/CDN-Transcode-Sample) - Media transcoding
 - [**opencv/gst-video-analytics**](https://github.com/opencv/gst-video-analytics) - a collection of GStreamer* elements to enable CNN model based video analytics capabilities (such as object detection, classification, recognition)
 - [centricular/gstwebrtc-demos](https://github.com/centricular/gstwebrtc-demos)
 - [thaytan/gst-rpicamsrc](https://github.com/thaytan/gst-rpicamsrc) - GStreamer element for the Raspberry Pi camera module
