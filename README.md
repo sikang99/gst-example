@@ -64,6 +64,7 @@
 - 2019/04/02 [Jetson Nano + Raspberry Pi Camera](https://www.jetsonhacks.com/2019/04/02/jetson-nano-raspberry-pi-camera/)
 - 2019/03/18 [Accelerated GStreamer User Guide - NVIDIA Developer](https://developer.nvidia.com/embedded/dlc/l4t-accelerated-gstreamer-guide-32-1)
 - 2019/02/02 [gstreamer 1.16 and beyond - FOSDEM 2019](https://fosdem.org/2019/schedule/event/media_gstreamer_1_16/attachments/slides/3027/export/events/attachments/media_gstreamer_1_16/slides/3027/FOSDEM_2019_OpenMedia_GStreamer_1_16_and_beyond.pdf)
+- 2019/01/29 [**Nnstreamer stream pipeline for arbitrary neural networks**](https://www.slideshare.net/NaverEngineering/nnstreamer-stream-pipeline-for-arbitrary-neural-networks)
 - 2019/01/23 [GStreamer WebRTC: A flexible solution to web-based media](https://opensource.com/article/19/1/gstreamer)
 - 2019/00/00
 - 2018/11/15 [Gstreamer webrtcbin working sample pipeline](https://stackoverflow.com/questions/53267038/gstreamer-webrtcbin-working-sample-pipeline)
