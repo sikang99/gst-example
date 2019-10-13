@@ -55,7 +55,9 @@
 
 
 ### History
+- 2019/05/23 [How to Live Stream to YouTube With a Raspberry Pi](https://www.makeuseof.com/tag/live-stream-youtube-raspberry-pi/)
 - 2019/05/10 [GStreamer support for the RIST Specification](https://www.linuxtoday.com/infrastructure/gstreamer-support-for-the-rist-specification-190409145024.html)
+- 2019/04/04 [**A Guide to H.264 Streaming with Regards to FRC**](https://rianadon.github.io/blog/2019/04/04/guide-to-h264-streaming-frc.html)
 - 2019/04/04 [GStreamer buffer flow analyzer](https://www.collabora.com/news-and-blog/blog/2019/04/25/gstreamer-buffer-flow-analyzer/)
 - 2019/04/04 [GStreamer support for the RIST Specification](https://www.collabora.com/news-and-blog/news-and-events/gstreamer-support-for-the-rist-specification.html)
 - 2019/04/02 [Jetson Nano + Raspberry Pi Camera](https://www.jetsonhacks.com/2019/04/02/jetson-nano-raspberry-pi-camera/)
