@@ -102,7 +102,7 @@
 - [**nnsuite/nnstreamer**](https://github.com/nnsuite/nnstreamer)
 - [OpenVisualCloud/SVT-AV1](https://github.com/OpenVisualCloud/SVT-AV1)
 - [**OpenVisualCloud/CDN-Transcode-Sample**](https://github.com/OpenVisualCloud/CDN-Transcode-Sample) - Media transcoding
-- [**opencv/gst-video-analytics**](https://github.com/opencv/gst-video-analytics) - a collection of GStreamer* elements to enable CNN model based video analytics capabilities (such as object detection, classification, recognition)
+- [**opencv/gst-video-analytics**](https://github.com/opencv/gst-video-analytics) - a collection of GStreamer elements to enable CNN model based video analytics capabilities (such as object detection, classification, recognition)
 - [centricular/gstwebrtc-demos](https://github.com/centricular/gstwebrtc-demos)
 - [thaytan/gst-rpicamsrc](https://github.com/thaytan/gst-rpicamsrc) - GStreamer element for the Raspberry Pi camera module
 - [mrayy/mrayGStreamerUnity](https://github.com/mrayy/mrayGStreamerUnity) - GStreamer Integration with Unity using a Native plugin
@@ -127,7 +127,7 @@
 - [**gitlab/gstreamer**](https://gitlab.freedesktop.org/gstreamer) - GStreamer open-source multimedia framework
 - [JetsonHacksNano/CSI-Camera](https://github.com/JetsonHacksNano/CSI-Camera) - Simple example of using a CSI-Camera (like the Raspberry Pi Version 2 camera) with the NVIDIA Jetson Nano Developer Kit
 - [notedit/rtmp-to-webrtc](https://github.com/notedit/rtmp-to-webrtc) - rtmp to webrtc (Chinese)
-
+- [wondershaper](https://github.com/magnific0/wondershaper) - Command-line utility for limiting an adapter's bandwidth
 
 
 ### Persons
