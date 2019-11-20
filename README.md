@@ -95,9 +95,11 @@
 ### Stackoverflow
 - [GStreamer transcode audio to AAC](https://stackoverflow.com/questions/51963114/gstreamer-transcode-audio-to-aac) - RTSP to HLS
 - [Using Gstreamer to serve RTSP stream, working example sought](https://stackoverflow.com/questions/13744560/using-gstreamer-to-serve-rtsp-stream-working-example-sought)
+- [WebRTC stream getting stuck on limited network bandwidth](https://gitlab.freedesktop.org/gstreamer/gst-plugins-bad/issues/1083)
 
 
 ### Open Source
+- [**nnsuite/nnstreamer**](https://github.com/nnsuite/nnstreamer)
 - [OpenVisualCloud/SVT-AV1](https://github.com/OpenVisualCloud/SVT-AV1)
 - [**OpenVisualCloud/CDN-Transcode-Sample**](https://github.com/OpenVisualCloud/CDN-Transcode-Sample) - Media transcoding
 - [**opencv/gst-video-analytics**](https://github.com/opencv/gst-video-analytics) - a collection of GStreamer* elements to enable CNN model based video analytics capabilities (such as object detection, classification, recognition)
