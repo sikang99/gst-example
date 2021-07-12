@@ -55,6 +55,7 @@
 
 
 ### History
+- 2021/03/15 [**GStreamer 1.18 Release Notes**](https://gstreamer.freedesktop.org/releases/1.18/) - 1.18.4
 - 2019/09/22 [**GStreamer 1.16 Release Notes**](https://gstreamer.freedesktop.org/releases/1.16/) - 1.16.1
 - 2019/05/23 [How to Live Stream to YouTube With a Raspberry Pi](https://www.makeuseof.com/tag/live-stream-youtube-raspberry-pi/)
 - 2019/05/10 [GStreamer support for the RIST Specification](https://www.linuxtoday.com/infrastructure/gstreamer-support-for-the-rist-specification-190409145024.html)
